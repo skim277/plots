@@ -31,6 +31,7 @@ cbar.set_ticklabels([f'{min_z:.2e}', f'{max_z:.2e}'])
 plt.xlabel('X Values')
 plt.ylabel('Y Values')
 plt.title('Scatter Plot with Color Map')
+plt.grid(True, linestyle='dotted', alpha=0.5)
 
 # save the plot as scatterplot.png
 plt.savefig('scatterplot.png')
